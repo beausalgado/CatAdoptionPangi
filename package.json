@@ -1,0 +1,20 @@
+{
+  "name": "catadoptionlourdes",
+  "version": "1.0.0",
+  "description": "A website to replace an outdated one for the Cat Adoption House Lourdes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beau-augusto/CatAdoptionLourdes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beau-augusto/CatAdoptionLourdes/issues"
+  },
+  "homepage": "https://github.com/beau-augusto/CatAdoptionLourdes#readme"
+}
