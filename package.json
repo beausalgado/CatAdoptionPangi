@@ -4,7 +4,8 @@
   "description": "A website to replace an outdated one for the Cat Adoption House Lourdes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/beau-augusto/CatAdoptionLourdes/issues"
   },
-  "homepage": "https://github.com/beau-augusto/CatAdoptionLourdes#readme"
+  "homepage": "https://github.com/beau-augusto/CatAdoptionLourdes#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "parcel": "^2.7.0"
+  }
 }
